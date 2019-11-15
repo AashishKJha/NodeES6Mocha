@@ -1,0 +1,27 @@
+{
+  "name": "nodees6mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node lib/index.js",
+    "test": "mocha lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnluckyAj/NodeES6Mocha.git"
+  },
+  "author": "Aashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnluckyAj/NodeES6Mocha/issues"
+  },
+  "homepage": "https://github.com/UnluckyAj/NodeES6Mocha#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "mocha": "^6.2.2"
+  }
+}
